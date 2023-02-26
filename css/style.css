@@ -20,6 +20,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--main-bg-color);
+  
 }
 
 button {
@@ -31,6 +32,9 @@ button {
   height: 80%;
   border-radius: 10px;
   background:var(--main-bk-color);
+  background-image: url(/img/successful-entrepreneur.jpg);
+  background-size: 100%;
+  
 }
 
 .header {

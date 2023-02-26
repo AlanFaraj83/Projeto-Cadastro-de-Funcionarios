@@ -12,7 +12,8 @@
     <div class="container">
         <div class="header">
             <span>Cadastro de Funcionários</span>
-            <button onclick="openModal()" id="new">Incluir</button>
+            <button onclick="openModal()" id="new">Incluir</i></button>
+            
         </div>
 
         <div class="divTable">
@@ -41,8 +42,8 @@
                     <label for="m-funcao">Função</label>
                     <input id="m-funcao" type="text" required>
 
-                    <label for="m-salario">Salario</label>
-                    <input id="m-salario" type="number" required>
+                    <label for="m-salario">Salário</label>
+                    <input id="m-salario" min=0 type="number" required>
                     <button id="btnSalvar">Salvar</button>
                 </form>
             </div>
