@@ -32,7 +32,7 @@ button {
   height: 80%;
   border-radius: 10px;
   background:var(--main-bk-color);
-  background-image: url(/img/successful-entrepreneur.jpg);
+  background-image: url(../img/successful-entrepreneur.jpg);
   background-size: 100%;
   
 }
